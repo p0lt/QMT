@@ -33,8 +33,8 @@ class BudgetProjection_dlg(QDialog):
 
     def displayBudgetProjection(self):
         total_num_of_torrents = len(self.projection)
-        if total_num_of_torrents == 0 or self.next_superBlock == 0:
-            return
+        #if total_num_of_torrents == 0 or self.next_superBlock == 0:
+        #    return
 
         # header
         ## blocks to next superBlock (== minutes)
